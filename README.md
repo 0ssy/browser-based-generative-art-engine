@@ -2,8 +2,9 @@
 
 A deterministic, fixed-timestep particle flow field engine for generative art in the browser. The simulation core is pure, deterministic, and isolated from the DOM, while the host/render/UI layers provide interactive controls and high-quality exports.
 
-![Screenshot placeholder](assets/screenshots/screenshot.png)
-*Add screenshots to `assets/screenshots/` for documentation.*
+![Desktop screenshot](assets/screenshots/screenshot-desktop.png)
+
+![Mobile screenshot](assets/screenshots/screenshot-mobile.png)
 
 ## Features
 
