@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generative Art Engine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls-panel">
+            <!-- Controls will be injected by ui/controls.js -->
+        </div>
+        <div class="canvas-container">
+            <canvas id="art-canvas"></canvas>
+            <div class="status-bar">
+                <span id="status">Idle</span>
+                <span id="fps">FPS: 0</span>
+            </div>
+        </div>
+        <div class="buttons-panel">
+            <button id="pause-btn">Pause</button>
+            <button id="reset-btn">Reset</button>
+            <button id="new-variation-btn">New variation</button>
+            <button id="export-png-btn">Export PNG</button>
+            <button id="export-2x-btn">Export 2x</button>
+            <button id="export-svg-btn">Export SVG</button>
+        </div>
+    </div>
+    <script type="module" src="host/main.js"></script>
+</body>
+</html>

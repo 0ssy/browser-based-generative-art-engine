@@ -1,0 +1,16 @@
+{
+  "name": "browser-based-generative-art-engine",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Deterministic core for browser-based generative art engine",
+  "scripts": {
+    "test": "node --test",
+    "bench": "node bench/bench.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  }
+}
